@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 1 - QCM</title>
+</head>
+<body style="font-family: Arial">
+
+    <h2>> EX 1: QCM Questionnaire</h2>
+<div style="background: rgb(193, 195, 191); padding: 10px;">
+    <form id="quizForm">
+       
+        <p><b>1. (Choix Multiple) Quels langages font partie du web frontend ?</b></p>
+        <input type="checkbox" name="q1" value="HTML"> HTML<br>
+        <input type="checkbox" name="q1" value="Java"> Java<br>
+        <input type="checkbox" name="q1" value="CSS"> CSS<br>
+
+        <p><b>2. (Choix Multiple) Lesquels sont des types de données en JavaScript ?</b></p>
+        <input type="checkbox" name="q2" value="String"> String<br>
+        <input type="checkbox" name="q2" value="Boolean"> Boolean<br>
+        <input type="checkbox" name="q2" value="Elephant"> Elephant<br>
+
+        <p><b>3. (Choix Multiple) Quelles balises sont utilisées pour les listes ?</b></p>
+        <input type="checkbox" name="q3" value="ul"> &lt;ul&gt;<br>
+        <input type="checkbox" name="q3" value="table"> &lt;table&gt;<br>
+        <input type="checkbox" name="q3" value="li"> &lt;li&gt;<br>
+
+      
+        <p><b>4. (Choix Simple) Le JavaScript est un langage compilé.</b></p>
+        <input type="radio" name="q4" value="Vrai"> Vrai<br>
+        <input type="radio" name="q4" value="Faux"> Faux<br>
+
+        <p><b>5. (Choix Simple) Quelle balise insère du JavaScript ?</b></p>
+        <input type="radio" name="q5" value="script"> &lt;script&gt;<br>
+        <input type="radio" name="q5" value="js"> &lt;js&gt;<br>
+
+        <br>
+       
+        <button type="button" onclick="showResultsWindow()">Afficher le résultat</button>
+        <button type="button" onclick="showCorrectionWindow()">Afficher la correction</button>
+    </form>
+</div>
+    <script src="TP1.js"></script>
+</body>
+</html>

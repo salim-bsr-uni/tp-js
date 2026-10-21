@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EX 4</title>
+</head>
+<body style="font-family: Arial">
+
+    <h2>> EX 4</h2>
+   
+ <DIV style="background: rgb(193, 195, 191); padding: 10px;">
+
+    <p>Entrer le premier temps :</p>
+    Heure(s): <input type="number" min="0" id="h1" value="0" style="width: 50px;"> 
+    Minute(s): <input type="number" min="0" id="m1" value="0" style="width: 50px;"> 
+    Seconde(s): <input type="number" min="0" id="s1" value="0" style="width: 50px;">
+
+    <p>Entrer le deuxieme temps :</p>
+    Heure(s): <input type="number" min="0" id="h2" value="0" style="width: 50px;"> 
+    Minute(s): <input type="number" min="0" id="m2" value="0" style="width: 50px;"> 
+    Seconde(s): <input type="number" min="0" id="s2" value="0" style="width: 50px;">
+
+    <p>Entrer le troisieme temps :</p>
+    Heure(s): <input type="number" min="0" id="h3" value="0" style="width: 50px;"> 
+    Minute(s): <input type="number" min="0" id="m3" value="0" style="width: 50px;"> 
+    Seconde(s): <input type="number" min="0" id="s3" value="0" style="width: 50px;">
+
+    <br><br>
+    <button onclick="calculateTotalTime()">Calculer Total</button>
+    <button onclick="resetTimeForm()">Effacer</button>
+
+    <p id="totalResult" style="font-weight: bold; margin-top: 15px;"></p>
+</DIV>
+
+    <script src="TP4.js"></script>
+</body>
+</html>
